@@ -1,0 +1,17 @@
+[2025-04-23 22:51:38] [/workspaces/CS190-ICE3] source .devcontainer/shell.sh
+[2025-04-23 22:52:42] [/workspaces/CS190-ICE3] man grep
+[2025-04-23 23:06:29] [/workspaces/CS190-ICE3] grep "error" server.log
+[2025-04-23 23:06:39] [/workspaces/CS190-ICE3] grep "error" serverlog.txt
+[2025-04-23 23:29:52] [/workspaces/CS190-ICE3] grep -c "ERROR" logfile.txt
+[2025-04-23 23:31:01] [/workspaces/CS190-ICE3] grep -w "ERROR" logfile.txt
+[2025-04-23 23:31:25] [/workspaces/CS190-ICE3] grep -c  -w "ERROR" logfile.txt
+[2025-04-23 23:31:44] [/workspaces/CS190-ICE3] grep -i "warning" logfile.txt 
+[2025-04-23 23:32:19] [/workspaces/CS190-ICE3] grep -v "warning" logfile.txt 
+[2025-04-23 23:32:52] [/workspaces/CS190-ICE3] man sed
+[2025-04-23 23:36:28] [/workspaces/CS190-ICE3] sed -n '10,20p'
+[2025-04-23 23:36:34] [/workspaces/CS190-ICE3] sed -n '10,20p' sed_practice_file.txt 
+[2025-04-23 23:37:52] [/workspaces/CS190-ICE3] sed 's/apple/orange/g sed_practice_file.txt
+[2025-04-23 23:41:16] [/workspaces/CS190-ICE3] awk 'BEGIN {sum=0} sum+=3} END {print sum/NR}' employees.txt 
+[2025-04-23 23:41:45] [/workspaces/CS190-ICE3] awk 'BEGIN {sum=0} {sum+=3} END {print sum/NR}' employees.txt 
+[2025-04-23 23:43:35] [/workspaces/CS190-ICE3] awk '$4 >= 90 {print $2, $4}' grades.txt 
+[2025-04-23 23:46:03] [/workspaces/CS190-ICE3] awk '$3 == 404 || $3 == 500 {print $1, $4}' serverlog.txt 
